@@ -9,7 +9,7 @@ enableEmoji = true
 
 [params]
   # Theme parameters
-  defaultTheme = "auto"  # auto, light, dark
+  defaultTheme = "light"  # auto, light, dark
   ShowReadingTime = true
   ShowShareButtons = false  # Disable share buttons
   ShowPostNavLinks = true
