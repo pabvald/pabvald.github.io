@@ -1,0 +1,69 @@
+baseURL = "https://pabvald.github.io/"
+title = "Pablo Valdunciel Sanchez"
+theme = "PaperMod"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+# Enable emoji support
+enableEmoji = true
+
+[params]
+  # Theme parameters
+  defaultTheme = "auto"  # auto, light, dark
+  ShowReadingTime = true
+  ShowShareButtons = false  # Disable share buttons
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  # Home page settings
+  [params.profileMode]
+    enabled = true
+    title = "Pablo Valdunciel"
+    subtitle = "Software Engineer | AI Engineer"
+    imageUrl = "/pictures/me.jpeg"
+    imageTitle = "Profile Picture"
+    imageWidth = 200
+    imageHeight = 200
+
+  # Custom CSS to make the image circular
+  [params.assets]
+    customCSS = ["css/custom.css"]
+
+  # Footer social icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/pabvald"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/pabvald/"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:pablo.vs@etik.com"
+
+# Ignore warnings about raw HTML
+ignoreLogs = ['warning-goldmark-raw-html']
+
+# Allow raw HTML in content
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Main menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/files/CV_PabloValduncielSanchez.pdf"  # Keep this as /cv/ since we're using the preview page
+    weight = 3

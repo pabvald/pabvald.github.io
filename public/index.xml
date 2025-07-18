@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pablo Valdunciel Sanchez</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Pablo Valdunciel Sanchez</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Learn more about me and my background</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=http://localhost:1313/files/cv.pdf&#34;&gt;
+&lt;p&gt;If you are not automatically redirected, &lt;a href=&#34;http://localhost:1313/files/cv.pdf&#34;&gt;click here to download my CV&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
