@@ -1,4 +1,4 @@
-baseURL = "https://pabvald.github.io/"
+baseURL = "https://www.pablo-valdunciel.eu/"
 title = "Pablo Valdunciel Sanchez"
 theme = "PaperMod"
 languageCode = "en-us"
@@ -65,5 +65,5 @@ ignoreLogs = ['warning-goldmark-raw-html']
   [[menu.main]]
     identifier = "cv"
     name = "CV"
-    url = "/files/CV_PabloValduncielSanchez.pdf"  # Keep this as /cv/ since we're using the preview page
+    url = "/files/cv_pablo-valdunciel-sanchez.pdf"  # Keep this as /cv/ since we're using the preview page
     weight = 3
