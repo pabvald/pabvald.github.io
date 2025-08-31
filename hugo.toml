@@ -1,4 +1,4 @@
-baseURL = "https://www.pablo-valdunciel.eu/"
+baseURL = "https://pablo-valdunciel.eu/"
 title = "Pablo Valdunciel Sanchez"
 theme = "PaperMod"
 languageCode = "en-us"
@@ -20,7 +20,7 @@ enableEmoji = true
   [params.profileMode]
     enabled = true
     title = "Pablo Valdunciel"
-    subtitle = "Software Engineer | AI Engineer"
+    subtitle = "Software Engineer | Machine Learning Engineer"
     imageUrl = "/pictures/me.jpeg"
     imageTitle = "Profile Picture"
     imageWidth = 200
